@@ -1,0 +1,22 @@
+[
+  {
+    "host": "xxx.xxx.xxx.xxx",
+    "port": xxx,
+    "username": "xxxxxx",
+    "password": "xxxxxxxxxxx",
+    "local_dir": "D:\\Test",
+    "remote_dir": "/home/Test",
+    "file_suffix_tuple_exluded": [
+      ".pyc",
+      ".log",
+      ".gz"
+    ],
+    "path_pattern_exluded_tuple": [
+      "/.git/",
+      "/.idea/"
+    ],
+    "only_upload_within_the_last_modify_time": "7 * 24 * 3600",
+    "file_volume_limit": "2 * 1000 * 1000",
+    "cycle_interval": 10
+  }
+]
